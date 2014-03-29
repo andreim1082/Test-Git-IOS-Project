@@ -21,6 +21,7 @@
 		79ABC5E218E6D91800511A7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ABC5C418E6D91800511A7D /* UIKit.framework */; };
 		79ABC5EA18E6D91800511A7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79ABC5E818E6D91800511A7D /* InfoPlist.strings */; };
 		79ABC5EC18E6D91800511A7D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABC5EB18E6D91800511A7D /* Git_TestTests.m */; };
+		79ABC5F718E6DC6000511A7D /* MPTestclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABC5F618E6DC6000511A7D /* MPTestclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		79ABC5E718E6D91800511A7D /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		79ABC5E918E6D91800511A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79ABC5EB18E6D91800511A7D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		79ABC5F518E6DC6000511A7D /* MPTestclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTestclass.h; sourceTree = "<group>"; };
+		79ABC5F618E6DC6000511A7D /* MPTestclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTestclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		79ABC5B418E6D91800511A7D = {
 			isa = PBXGroup;
 			children = (
+				79ABC5F518E6DC6000511A7D /* MPTestclass.h */,
+				79ABC5F618E6DC6000511A7D /* MPTestclass.m */,
 				79ABC5C618E6D91800511A7D /* Git Test */,
 				79ABC5E518E6D91800511A7D /* Git TestTests */,
 				79ABC5BF18E6D91800511A7D /* Frameworks */,
@@ -253,6 +258,7 @@
 				79ABC5CD18E6D91800511A7D /* main.m in Sources */,
 				79ABC5D718E6D91800511A7D /* MPViewController.m in Sources */,
 				79ABC5D118E6D91800511A7D /* MPAppDelegate.m in Sources */,
+				79ABC5F718E6DC6000511A7D /* MPTestclass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
